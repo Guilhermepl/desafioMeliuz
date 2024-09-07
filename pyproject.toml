@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "desafio-meliuz"
+version = "0.1.0"
+description = "Projeto Desafio - Pessoa Desenvolvedora Backend Dados Pleno"
+authors = ["Guilherme Lima <limapeguilherme@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.113.0"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.1"
+uvicorn = "^0.30.6"
+gunicorn = "^23.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
